@@ -2,6 +2,8 @@
 
 A personalized launchpad dashboard that displays your web apps as a grid of cards, with category filters, search, and light/dark themes. Built with React, Vite, and Tailwind CSS.
 
+![App Launcher Screenshot Light Mode](./app-launcher-screenshot.png)
+
 ## Run Locally
 
 **Prerequisites:** [Node.js](https://nodejs.org) and [pnpm](https://pnpm.io). If you have a recent Node.js, you can enable pnpm with `corepack enable`.
@@ -42,16 +44,16 @@ Every card is an object with the following fields:
 }
 ```
 
-| Field | Description |
-| --- | --- |
-| `id` | Unique identifier for the card (must not duplicate another card's id). |
-| `title` | Display name shown on the card. |
-| `description` | Short blurb shown under the title. Also searched by the search bar. |
-| `url` | Link the card opens when clicked. |
-| `iconName` | A [Lucide](https://lucide.dev/icons/) icon name (e.g. `BookOpen`, `Github`, `Music`). Falls back to a `Link` icon if the name isn't found. |
-| `bgColor` | Tailwind class for the icon tile background, e.g. `bg-zinc-900`, `bg-[#1ed760]`, or a gradient like `bg-gradient-to-tr from-amber-500 via-pink-500 to-violet-500`. |
-| `textColor` | Tailwind text-color class for the icon, e.g. `text-white` or `text-[#1a1a1a]`. |
-| `category` | One of: `productivity`, `design`, `social`, `entertainment`, `utilities`. Controls which category filter the card appears under. |
+| Field         | Description                                                                                                                                                        |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `id`          | Unique identifier for the card (must not duplicate another card's id).                                                                                             |
+| `title`       | Display name shown on the card.                                                                                                                                    |
+| `description` | Short blurb shown under the title. Also searched by the search bar.                                                                                                |
+| `url`         | Link the card opens when clicked.                                                                                                                                  |
+| `iconName`    | A [Lucide](https://lucide.dev/icons/) icon name (e.g. `BookOpen`, `Github`, `Music`). Falls back to a `Link` icon if the name isn't found.                         |
+| `bgColor`     | Tailwind class for the icon tile background, e.g. `bg-zinc-900`, `bg-[#1ed760]`, or a gradient like `bg-gradient-to-tr from-amber-500 via-pink-500 to-violet-500`. |
+| `textColor`   | Tailwind text-color class for the icon, e.g. `text-white` or `text-[#1a1a1a]`.                                                                                     |
+| `category`    | One of: `productivity`, `design`, `social`, `entertainment`, `utilities`. Controls which category filter the card appears under.                                   |
 
 Categories are defined in [src/data.ts](src/data.ts) (`CATEGORIES`). The `all` filter shows every card.
 
@@ -73,6 +75,7 @@ Add a new object to the array in [src/apps.json](src/apps.json). For example, to
 ```
 
 Tips:
+
 - Pick any icon name from [lucide.dev/icons](https://lucide.dev/icons/).
 - Make sure `id` is unique and `category` is one of the values listed above.
 - Keep the file valid JSON — commas between objects, no trailing comma after the last one.
