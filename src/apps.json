@@ -1,122 +1,102 @@
 [
   {
-    "id": "notion",
-    "title": "Notion",
-    "description": "Connected workspace for wiki, docs & project tasks.",
-    "url": "https://www.notion.so",
-    "iconName": "BookOpen",
+    "id": "fundedyouth",
+    "title": "FundedYouth.org",
+    "description": "Official website of FundedYouth. Learn about classes, workshops, competitions, donations, and more.",
+    "url": "https://fundedyouth.org",
+    "icon": "/apps/fundedyouth.png",
     "bgColor": "bg-[#1a1a1a]",
     "textColor": "text-white",
-    "category": "productivity"
+    "category": "internal"
   },
   {
-    "id": "figma",
-    "title": "Figma",
-    "description": "Collaborative interface design tool for teams.",
-    "url": "https://www.figma.com",
-    "iconName": "Layout",
-    "bgColor": "bg-gradient-to-tr from-amber-500 via-pink-500 to-violet-500",
+    "id": "the-vault",
+    "title": "The Vault",
+    "description": "Members only in-store file server. Access limited edition 3D Prints and Laser Cut Designs.",
+    "url": "http://fys.local:5001",
+    "icon": "/apps/the-vault.png",
+    "bgColor": "bg-slate-900",
     "textColor": "text-white",
-    "category": "design"
+    "category": "internal"
   },
   {
-    "id": "github",
-    "title": "GitHub",
-    "description": "Developer platform for hosting and versioning code.",
-    "url": "https://github.com",
-    "iconName": "Github",
-    "bgColor": "bg-zinc-900",
+    "id": "portal",
+    "title": "Portal",
+    "description": "FundedYouth member portal for accounts, enrollment, and program access.",
+    "url": "https://portal.fundedyouth.org",
+    "icon": "/apps/portal.png",
+    "bgColor": "bg-indigo-600",
     "textColor": "text-white",
-    "category": "utilities"
+    "category": "internal"
   },
   {
-    "id": "spotify",
-    "title": "Spotify",
-    "description": "Digital music service giving access to millions of songs.",
-    "url": "https://open.spotify.com",
-    "iconName": "Music",
-    "bgColor": "bg-[#1ed760]",
-    "textColor": "text-neutral-900",
-    "category": "entertainment"
-  },
-  {
-    "id": "google",
-    "title": "Google Search",
-    "description": "Find worldwide info, webpages, images & videos.",
-    "url": "https://www.google.com",
-    "iconName": "Search",
-    "bgColor": "bg-gradient-to-br from-blue-500 via-red-500 to-yellow-500",
+    "id": "qup",
+    "title": "Q-Up",
+    "description": "Queue and check-in tool for managing onsite participants and sessions.",
+    "url": "http://fys.local:5002",
+    "icon": "/apps/qup.png",
+    "bgColor": "bg-orange-600",
     "textColor": "text-white",
-    "category": "utilities"
+    "category": "internal"
   },
   {
-    "id": "youtube",
-    "title": "YouTube",
-    "description": "Share and watch videos, streams & tutorials.",
-    "url": "https://www.youtube.com",
-    "iconName": "Video",
-    "bgColor": "bg-[#ff0000]",
+    "id": "makerworld",
+    "title": "MakerWorld",
+    "description": "Discover, download, and share ready-to-print 3D models for your projects.",
+    "url": "https://makerworld.com",
+    "icon": "/apps/Makerworld.png",
+    "bgColor": "bg-[#00ae42]",
     "textColor": "text-white",
-    "category": "entertainment"
+    "category": "maker"
   },
   {
-    "id": "slack",
-    "title": "Slack",
-    "description": "Workspace chat & internal business communication.",
-    "url": "https://slack.com",
-    "iconName": "MessageSquare",
-    "bgColor": "bg-[#4a154b]",
+    "id": "thingiverse",
+    "title": "Thingiverse",
+    "description": "The largest 3D printing community to find and share printable designs.",
+    "url": "https://thingiverse.com",
+    "icon": "/apps/Thingiverse.png",
+    "bgColor": "bg-[#248bfb]",
     "textColor": "text-white",
-    "category": "social"
+    "category": "maker"
   },
   {
-    "id": "gmail",
-    "title": "Gmail",
-    "description": "Email service developed by Google.",
-    "url": "https://mail.google.com",
-    "iconName": "Mail",
-    "bgColor": "bg-gradient-to-br from-red-500 to-rose-600",
+    "id": "tinkercad",
+    "title": "Tinkercad",
+    "description": "Free, easy-to-use app for 3D design, electronics, and coding.",
+    "url": "https://tinkercad.com",
+    "icon": "/apps/tinkercad.png",
+    "bgColor": "bg-[#1477d1]",
     "textColor": "text-white",
-    "category": "social"
+    "category": "maker"
   },
   {
-    "id": "canva",
-    "title": "Canva",
-    "description": "Free graphic design platform for presentations & social graphics.",
-    "url": "https://www.canva.com",
-    "iconName": "Palette",
-    "bgColor": "bg-gradient-to-r from-teal-400 to-indigo-500",
+    "id": "code-org",
+    "title": "Code.org",
+    "description": "Learn computer science with courses, tutorials, and hands-on coding activities.",
+    "url": "https://code.org",
+    "icon": "/apps/code-org.png",
+    "bgColor": "bg-[#1a73e8]",
     "textColor": "text-white",
-    "category": "design"
+    "category": "coding"
   },
   {
-    "id": "wikipedia",
-    "title": "Wikipedia",
-    "description": "Free online encyclopedia built collaboratively.",
-    "url": "https://www.wikipedia.org",
-    "iconName": "Globe",
-    "bgColor": "bg-sky-100",
-    "textColor": "text-[#1a1a1a]",
-    "category": "utilities"
-  },
-  {
-    "id": "linear",
-    "title": "Linear",
-    "description": "High-performance issue tracker and team roadmaps.",
-    "url": "https://linear.app",
-    "iconName": "Layers",
-    "bgColor": "bg-[#5e6ad2]",
+    "id": "makecode",
+    "title": "MakeCode",
+    "description": "Microsoft MakeCode block & text editor for physical computing and games.",
+    "url": "https://www.makecode.com",
+    "icon": "/apps/makecode.png",
+    "bgColor": "bg-[#5c2d91]",
     "textColor": "text-white",
-    "category": "productivity"
+    "category": "coding"
   },
   {
-    "id": "netflix",
-    "title": "Netflix",
-    "description": "Subscribed films, television shows, and documentaries.",
-    "url": "https://www.netflix.com",
-    "iconName": "Tv",
-    "bgColor": "bg-neutral-950 border border-neutral-800",
-    "textColor": "text-[#e50914]",
-    "category": "entertainment"
+    "id": "n8n",
+    "title": "n8n",
+    "description": "Workflow automation tool to connect apps and build automated pipelines.",
+    "url": "http://fys.local:5678",
+    "icon": "/apps/n8n.png",
+    "bgColor": "bg-[#ea4b71]",
+    "textColor": "text-white",
+    "category": "automation"
   }
 ]

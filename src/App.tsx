@@ -94,10 +94,10 @@ export default function App() {
       }`}>
         {/* Logo / Branding Brand Title */}
         <div className="flex items-center gap-3">
-          <div id="header-logo-wrapper" className="h-10 w-10 rounded-2xl overflow-hidden shadow-sm ring-2 ring-indigo-500/30 flex items-center justify-center bg-white">
+          <div id="header-logo-wrapper" className="h-10 w-10 overflow-hidden flex items-center justify-center">
             <img
               id="header-logo"
-              src="/src/assets/images/launcher_logo_1780370846173.png"
+              src="/logo.png"
               alt="App Launcher Logo"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"

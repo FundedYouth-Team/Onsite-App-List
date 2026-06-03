@@ -124,12 +124,11 @@ export const DEFAULT_APPS: AppItem[] = [
 ];
 
 export const CATEGORIES = [
-  { id: 'all', name: 'All Spaces', icon: 'Sparkles' },
-  { id: 'productivity', name: 'Work', icon: 'Briefcase' },
-  { id: 'design', name: 'Creativity', icon: 'Palette' },
-  { id: 'social', name: 'Connect', icon: 'MessageSquare' },
-  { id: 'entertainment', name: 'Play', icon: 'Tv' },
-  { id: 'utilities', name: 'Tools', icon: 'AppWindow' }
+  { id: 'all', name: 'All Apps', icon: 'Sparkles' },
+  { id: 'internal', name: 'FY Tools', icon: 'AppWindow' },
+  { id: 'coding', name: 'Coding', icon: 'Code' },
+  { id: 'maker', name: '3D & Maker', icon: 'Box' },
+  { id: 'automation', name: 'Automation', icon: 'Workflow' }
 ];
 
 export const AVAILABLE_BACKGROUNDS = [

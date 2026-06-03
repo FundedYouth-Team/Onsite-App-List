@@ -45,8 +45,8 @@ export function AppCard({ app, isDeleteMode, onDelete, theme = 'light' }: AppCar
         target="_blank"
         rel="noopener noreferrer"
         className={`w-full flex flex-col justify-between p-6 sm:p-7 border rounded-[32px] shadow-sm hover:shadow-md transition-all duration-350 hover:-translate-y-1 h-full min-h-[200px] sm:min-h-[220px] group/card relative overflow-hidden ${
-          isDark 
-            ? 'bg-[#1e293b]/90 border-slate-800 text-slate-100' 
+          isDark
+            ? 'bg-[#1e293b]/90 border-slate-800 text-slate-100'
             : 'bg-white border-slate-200/90 text-slate-800'
         }`}
       >
@@ -58,22 +58,29 @@ export function AppCard({ app, isDeleteMode, onDelete, theme = 'light' }: AppCar
         {/* Bento Top: Iconic Action Element */}
         <div className="flex justify-between items-start w-full">
           <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className={`w-14 h-14 rounded-2xl ${app.bgColor} ${app.textColor} flex items-center justify-center shadow-lg relative overflow-hidden ring-1 ring-black/[0.04]`}
+            className={`w-14 h-14 ${app.textColor} flex items-center justify-center relative overflow-hidden`}
           >
             {/* Soft Overlay Shine */}
             <div className="absolute inset-0 bg-gradient-to-b from-white/12 to-transparent opacity-40 mix-blend-overlay pointer-events-none" />
-            <LucideIcon 
-              name={app.iconName} 
-              className="w-7 h-7 drop-shadow-sm group-hover/card:scale-110 transition-transform duration-300" 
-            />
+            {app.icon ? (
+              <img
+                src={app.icon}
+                alt={`${app.title} icon`}
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
+            ) : (
+              <LucideIcon
+                name={app.iconName ?? 'Link'}
+                className="w-7 h-7 drop-shadow-sm group-hover/card:scale-110 transition-transform duration-300"
+              />
+            )}
           </motion.div>
 
           {/* Clean minimalist external indicator */}
           <div className={`p-2 rounded-xl border opacity-60 group-hover/card:opacity-100 transition-all ${
-            isDark 
-              ? 'bg-slate-950 border-slate-800 group-hover/card:bg-slate-800/50' 
+            isDark
+              ? 'bg-slate-950 border-slate-800 group-hover/card:bg-slate-800/50'
               : 'bg-slate-50 border-slate-100 group-hover/card:bg-slate-100/50'
           }`}>
             <ExternalLink size={12} className={isDark ? 'text-slate-400 group-hover/card:text-slate-200' : 'text-slate-400 group-hover/card:text-slate-800'} />
