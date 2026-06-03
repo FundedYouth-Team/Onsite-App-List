@@ -10,22 +10,22 @@
     "category": "internal"
   },
   {
-    "id": "the-vault",
-    "title": "The Vault",
-    "description": "Members only in-store file server. Access limited edition 3D Prints and Laser Cut Designs.",
-    "url": "http://fys.local:5001",
-    "icon": "/apps/the-vault.png",
-    "bgColor": "bg-slate-900",
-    "textColor": "text-white",
-    "category": "internal"
-  },
-  {
     "id": "portal",
     "title": "Portal",
     "description": "FundedYouth member portal for accounts, enrollment, and program access.",
     "url": "https://portal.fundedyouth.org",
     "icon": "/apps/portal.png",
     "bgColor": "bg-indigo-600",
+    "textColor": "text-white",
+    "category": "internal"
+  },
+  {
+    "id": "the-vault",
+    "title": "The Vault",
+    "description": "Members only in-store file server. Access limited edition 3D Prints and Laser Cut Designs.",
+    "url": "http://fys.local:5001",
+    "icon": "/apps/the-vault.png",
+    "bgColor": "bg-slate-900",
     "textColor": "text-white",
     "category": "internal"
   },
